@@ -23,7 +23,7 @@
 		    {"rotr", rotr},   \
 		{		      \
 			NULL, NULL     \
-		} 		      \
+		}                     \
 	}
 
 /**
