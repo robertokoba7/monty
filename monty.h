@@ -3,6 +3,7 @@
 
 #include <stddef.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 #define INSTRUCTIONS		    \
 	{			     \
