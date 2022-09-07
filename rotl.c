@@ -22,7 +22,7 @@ void rotl(stack_t **stack, unsigned int line_count)
 		right = right->next;
 	right->next = left; /* a circle infinite linked list loop */
 	left->prev = right;
-	stack = left->next; /* so we cut the link between the 0 and 1 element */
+	*stack = left->next; /* so we cut the link between the 0 and 1 element */
 	(*stack)->prev->next = NULL;
 	(*stack)->prev = NULL;
 }
