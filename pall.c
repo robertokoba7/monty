@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * pall - prints the stack
+ * f-pall - prints the stack
  * @stack: stack given by main in start.c
  * @line_cnt: amount of lines
  *
